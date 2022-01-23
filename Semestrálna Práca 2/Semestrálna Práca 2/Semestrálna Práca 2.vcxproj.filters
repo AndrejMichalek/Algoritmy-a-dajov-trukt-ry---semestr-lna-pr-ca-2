@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\KriteriumUJ">
+      <UniqueIdentifier>{7384dbf5-a679-4dd5-b98f-7050652ef07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KriteriumBJ">
+      <UniqueIdentifier>{31f89d0e-b1fb-4001-a061-a33ece88939d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Strom">
+      <UniqueIdentifier>{79599679-4d33-4fbc-877f-3df549dc9f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Strom\Rezia">
+      <UniqueIdentifier>{bca72a78-abb2-4c9c-b5ab-c6c11f785b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tabulky">
+      <UniqueIdentifier>{e02e111d-15bf-4e1d-a7b2-119fc1f17148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UzemnaJednotka">
+      <UniqueIdentifier>{e9c91ff2-92d6-4243-9a8b-7629999ce5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Filtre">
+      <UniqueIdentifier>{458916b0-7bc3-468b-9900-c4abb5762c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FormatovacFiltra">
+      <UniqueIdentifier>{68c472ea-2526-4269-bce4-b242d525b491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BytovaJednotka">
+      <UniqueIdentifier>{d561e577-8d57-4411-bc67-6b133b639972}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Triedenie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KriteriumUJNazov.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ds_routines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CitacDatZoSuboru.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UzivatelskeProstredie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BytovaJednotkaNova.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoskupenieBytovychJednotiek.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormatovacFiltraBytovaJednotka.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KriteriumUJpocetBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VyberoveKriteriumBJPocet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VyberoveKriteriumUJsMinMaxPoctomBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Triedenie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kriterium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJ.h">
+      <Filter>Header Files\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJNazov.h">
+      <Filter>Header Files\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPocetObyvatelov.h">
+      <Filter>Header Files\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJZastavanost.h">
+      <Filter>Header Files\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumBJ.h">
+      <Filter>Header Files\KriteriumBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files\Strom</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>Header Files\Strom\Rezia</Filter>
+    </ClInclude>
+    <ClInclude Include="heap_monitor.h">
+      <Filter>Header Files\Strom\Rezia</Filter>
+    </ClInclude>
+    <ClInclude Include="structure_iterator.h">
+      <Filter>Header Files\Strom\Rezia</Filter>
+    </ClInclude>
+    <ClInclude Include="ds_structure_types.h">
+      <Filter>Header Files\Strom\Rezia</Filter>
+    </ClInclude>
+    <ClInclude Include="multi_way_tree.h">
+      <Filter>Header Files\Strom</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Header Files\Strom\Rezia</Filter>
+    </ClInclude>
+    <ClInclude Include="array_list.h">
+      <Filter>Header Files\Strom\Rezia</Filter>
+    </ClInclude>
+    <ClInclude Include="ds_routines.h">
+      <Filter>Header Files\Strom\Rezia</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>Header Files\Strom\Rezia</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files\Strom\Rezia</Filter>
+    </ClInclude>
+    <ClInclude Include="sorted_sequence_table.h">
+      <Filter>Header Files\tabulky</Filter>
+    </ClInclude>
+    <ClInclude Include="sequence_table.h">
+      <Filter>Header Files\tabulky</Filter>
+    </ClInclude>
+    <ClInclude Include="unsorted_sequence_table.h">
+      <Filter>Header Files\tabulky</Filter>
+    </ClInclude>
+    <ClInclude Include="table.h">
+      <Filter>Header Files\tabulky</Filter>
+    </ClInclude>
+    <ClInclude Include="UzemnaJednotka.h">
+      <Filter>Header Files\UzemnaJednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="StatUzemnaJednotka.h">
+      <Filter>Header Files\UzemnaJednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="KrajUzemnaJednotka.h">
+      <Filter>Header Files\UzemnaJednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="ObecUzemnaJednotka.h">
+      <Filter>Header Files\UzemnaJednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="OkresUzemnaJednotka.h">
+      <Filter>Header Files\UzemnaJednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="NacitaneData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJTypUzemnejJednotky.h">
+      <Filter>Header Files\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPrislusnost.h">
+      <Filter>Header Files\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPocetPreproduktivnychObyvatelov.h">
+      <Filter>Header Files\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPocetProduktivnychObyvatelov.h">
+      <Filter>Header Files\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJPocetPoproduktivnychObyvatelov.h">
+      <Filter>Header Files\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJCelkovaVymera.h">
+      <Filter>Header Files\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJZastavanaPlocha.h">
+      <Filter>Header Files\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterPodlaHodnoty.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterPodlaIntervalu.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="ZlozenyFilter.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstraktnyFilter.h">
+      <Filter>Header Files\Filtre</Filter>
+    </ClInclude>
+    <ClInclude Include="UzivatelskeProstredie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatovacFiltraUJTyp.h">
+      <Filter>Header Files\FormatovacFiltra</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatovacFiltraPocetObyvatelov.h">
+      <Filter>Header Files\FormatovacFiltra</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatovacFiltra.h">
+      <Filter>Header Files\FormatovacFiltra</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatovacFiltraUJNazov.h">
+      <Filter>Header Files\FormatovacFiltra</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatovacFiltraUJZastavanost.h">
+      <Filter>Header Files\FormatovacFiltra</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatovacFiltraPrislusnost.h">
+      <Filter>Header Files\FormatovacFiltra</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatovacTriedenia.h">
+      <Filter>Header Files\FormatovacFiltra</Filter>
+    </ClInclude>
+    <ClInclude Include="BytovaJednotka.h">
+      <Filter>Header Files\BytovaJednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoskupenieBytovychJednotiek.h">
+      <Filter>Header Files\BytovaJednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="TypBytovejJednotky.h">
+      <Filter>Header Files\BytovaJednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatovacVypisuBytovejJednotky.h">
+      <Filter>Header Files\BytovaJednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatovacFiltraBytovaJednotka.h">
+      <Filter>Header Files\BytovaJednotka</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumBJPocetSVlastnostami.h">
+      <Filter>Header Files\KriteriumBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJpocetBJ.h">
+      <Filter>Header Files\KriteriumUJ</Filter>
+    </ClInclude>
+    <ClInclude Include="VyberoveKriteriumBJPocet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VyberoveKriteriumUJsMinMaxPoctomBJ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CitacZKlavesnice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
